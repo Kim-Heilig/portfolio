@@ -1,0 +1,53 @@
+/** @format */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6; /* line height is 1.6 times the */
+  color: #333;
+}
+
+header {
+  padding: 1rem 5%; /* 1rem is top&bottom, 5% is left&right, rem is "relative to elements's size, the % is relative to the width of teh header's containg element */
+  background-color: #fff;
+}
+
+nav ul {
+  display: flex; /* makes this a flex container */
+  justify-content: flex-end; /* aligns flex items along main axis, horizontally */
+  list-style-type: none; /* removes default bullet points from list items */
+}
+
+nav ul li {
+  margin-left: 4rem; /* change if I want the menu bar more spread out*/
+}
+
+nav ul li a {
+  text-decoration: none; /* removes default underline from links */
+  color: #666;
+}
+
+nav ul li a:hover {
+  color: #4a8; /* changes the color of the text of menu items when hoovered */
+}
+
+main {
+  padding: 2rem 5%; /* adjusts all the margins top/bottom & left/right of the elements in main */
+}
+
+/* #home {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80vh;
+} */
+
+.image {
+  flex: 1;
+  text-align: right;
+}
+
+.image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
