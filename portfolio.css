@@ -30,16 +30,9 @@ nav ul li a:hover {
   color: #4a8; /* changes the color of the text of menu items when hoovered */
 }
 
-main {
-  padding: 2rem 5%; /* adjusts all the margins top/bottom & left/right of the elements in main */
+img {
+  filter: drop-shadow(200px 200px 200px rgba(51, 61, 58, 0.9));
 }
-
-/* #home {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  height: 80vh;
-} */
 
 .image {
   flex: 1;
@@ -47,7 +40,41 @@ main {
 }
 
 .image img {
-  max-width: 100%;
+  max-width: 35%;
   height: auto;
   border-radius: 10px;
+}
+
+main {
+  padding: 2rem 5%; /* adjusts all the margins top/bottom & left/right of the elements in main */
+}
+
+a[href="indexPort.html"] {
+  /* display: flex; /* I'm not understanding this enough to use it  */
+  align-items: center;
+  justify-content: space-between;
+  height: 8vh;
+}
+
+.content {
+  flex: 1;
+}
+
+h1 {
+  font-size: 5rem;
+  text-align: center;
+
+  margin-bottom: 0.2rem;
+}
+
+h2 {
+  font-size: 9rem;
+  text-align: center;
+  margin-bottom: 5 rem;
+}
+
+p {
+  font-size: 4rem;
+  text-align: center;
+  margin-bottom: 2rem;
 }
