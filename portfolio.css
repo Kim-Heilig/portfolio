@@ -1,33 +1,36 @@
 /** @format */
 
+/* Use a div element to establish the size of area.  Use the image as a background image to the div */
+
 body {
   font-family: Arial, Helvetica, sans-serif;
-  line-height: 1.6; /* line height is 1.6 times the */
+  line-height: 1.6;
   color: #333;
 }
 
 header {
-  padding: 1rem 5%; /* 1rem is top&bottom, 5% is left&right, rem is "relative to elements's size, the % is relative to the width of teh header's containg element */
+  padding: 1rem 5%;
   background-color: #fff;
+  font-size: 1em;
 }
 
 nav ul {
-  display: flex; /* makes this a flex container */
-  justify-content: flex-end; /* aligns flex items along main axis, horizontally */
-  list-style-type: none; /* removes default bullet points from list items */
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
 }
 
 nav ul li {
-  margin-left: 4rem; /* change if I want the menu bar more spread out*/
+  margin-left: 4rem;
 }
 
 nav ul li a {
-  text-decoration: none; /* removes default underline from links */
+  text-decoration: none;
   color: #666;
 }
 
 nav ul li a:hover {
-  color: #4a8; /* changes the color of the text of menu items when hoovered */
+  color: #4a8;
 }
 
 img {
@@ -40,30 +43,18 @@ img {
 }
 
 .image img {
-  max-width: 35%;
+  max-width: 30%;
   height: auto;
   border-radius: 10px;
 }
 
 main {
-  padding: 2rem 5%; /* adjusts all the margins top/bottom & left/right of the elements in main */
-}
-
-a[href="indexPort.html"] {
-  /* display: flex; /* I'm not understanding this enough to use it  */
-  align-items: center;
-  justify-content: space-between;
-  height: 8vh;
-}
-
-.content {
-  flex: 1;
+  padding: 2rem 5%;
 }
 
 h1 {
   font-size: 5rem;
   text-align: center;
-
   margin-bottom: 0.2rem;
 }
 
