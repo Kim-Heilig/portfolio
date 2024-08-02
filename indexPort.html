@@ -7,10 +7,62 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kim Heilig - Software Engineer</title>
     <link rel="stylesheet" href="portfolio.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <!-- This is page specific CSS.  As suggested by my mentor, put the image as a background div for the index page only. -->
+    <style>
+      #home {
+        background-image: url("kimPicture.png");
+        background-size: 50% auto;
+        background-position: right center;
+        background-repeat: no-repeat;
+        min-height: calc(
+          100vh - 80px
+        ); /* Adjust 80px based on your header height so full viewpoint which is relative, less 80 */
+        display: flex;
+        align-items: center; /*vertically centers*/
+        padding: 2rem 5%; /*adds padding*/
+      }
+      .content {
+        width: 45%;
+        max-width: 600px; /* limits the content width so it doesn't run into the image */
+        margin-right: auto; /* pushes content to the left */
+        text-align: right;
+      }
+      .content h1 {
+        font-size: 2rem;
+        margin-bottom: 0.2rem;
+      }
+      .content h2 {
+        font-size: 5rem;
+        margin: 1rem 0;
+      }
+      .content p {
+        font-size: 1.6rem;
+        margin-bottom: 2rem;
+      }
+      /* Hide the image div since we're using it as a background */
+      .content2 {
+        display: none;
+      }
+    </style>
+
+    <!-- End of CSS page specific -->
   </head>
   <body>
     <header>
       <nav>
+        <div class="social-links">
+          <a href="https://github.com/Kim-Heilig" target="_blank"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a href="https://linkedin.com/in/kimheilig/" target="_blank"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+        </div>
         <ul>
           <li><a href="indexPort.html">Home</a></li>
           <li><a href="aboutPage.html" id="aboutPage">About</a></li>
@@ -23,14 +75,24 @@
 
     <main>
       <section id="home">
-        <div class="content">
+        <div
+          class="content"
+          style="width: 50%; border: 0px solid #000; float: left"
+        >
           <h1>Hello, I'm</h1>
-          <h2>Kim Heilig</h2>
+          <h2>Alma Halie</h2>
           <p>I'm a software engineer based in Philadelphia</p>
         </div>
-        <div class="image">
-          <img src="kimPicture.png" alt="Kim Heilig smiling" />
-        </div>
+        <!-- removed when I made the picture as a background to a div
+          
+          <div
+          class="content2"
+          style="width: 49%; border: 0px solid #000; float: right"
+        >
+          <div class="image">
+            <img src="kimPicture.png" alt="Kim Heilig smiling" />
+          </div>
+        </div> -->
       </section>
     </main>
 
