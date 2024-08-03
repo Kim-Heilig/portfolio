@@ -34,3 +34,5 @@ CSS
 Additional Requirements
 
 [__] Have at least 1 style change for narrow, medium, and wide browser views
+[✓] Make at least 15 commits
+[✓] Have at least 1 PR
