@@ -9,11 +9,11 @@ The following requirements were requested by Techtonica:
 
 HTML
 
-[__] Photo
-[__] Headers
-[__] Sections
-[__] Semantic Tags
-[__] Links to social media accounts
+[✓] Photo
+[✓] Headers
+[✓] Sections
+[✓] Semantic Tags
+[✓] Links to social media accounts
 [__] Contact information for yourself
 [__] Contact form with required fields
 [__] contact form asking for a name (required)
@@ -26,7 +26,7 @@ CSS
 [__] At least 3 style properties applied to text
 [__] Border
 [__] Use of columns
-[__] Use of at least 1 ID
+[✓] Use of at least 1 ID
 [__] Use of at least 3 web design patterns
 [__] Override a CSS rule in your code in an obvious way at least once
 [__] Change display property of at least 1 element
